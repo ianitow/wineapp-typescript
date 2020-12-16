@@ -6,7 +6,7 @@ export const Container = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
-  padding: 0px 30px ${Platform.OS === 'android' ? 260 : 40}px;
+  padding: 0px 30px ${Platform.OS === 'android' ? 160 : 40}px;
 `;
 export const Title = styled.Text`
   font-size: 18px;
