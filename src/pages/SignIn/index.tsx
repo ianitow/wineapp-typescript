@@ -30,6 +30,7 @@ const SignIn: React.FC = () => {
   }, []);
   return (
     <>
+      {/* Para o teclado ficar acima da view */}
       <KeyboardAvoidingView
         style={{ flex: 1 }}
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
